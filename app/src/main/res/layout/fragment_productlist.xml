@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cqupt.myinvest.ui.MyTextView
+        android:id="@+id/tv_product_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="傻瓜金融开业大酬宾，最新上架，首投返现,先到先得，莫失良机。"
+        android:textColor="@color/product_red_common"
+        android:textSize="25sp"
+        />
+
+    <ListView
+        android:id="@+id/lv_product_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/title_text"
+        android:dividerHeight="5dp"
+        ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roundattr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cqupt.myinvest.ui.RoundProgress
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/roundPro_home"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        roundattr:max="100"
+        roundattr:progress="70"
+        roundattr:roundColor="@color/more_text"
+        roundattr:roundProgressColor="@color/round_red_common"
+        roundattr:roundWith="10dp"
+        roundattr:textColor="@color/title_back"
+        roundattr:textSize="20dp"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:drawableLeft="@drawable/guarantee_icon"
+    android:text="风险保障金由瑞士银行监管"
+    android:textColor="@color/home_back_unselected"
+    android:layout_alignParentBottom="true"/>

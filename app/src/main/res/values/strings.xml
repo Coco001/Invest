@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">掌上理财</string>
+    <string name="Homepage">首页</string>
+    <string name="Invest">投资</string>
+    <string name="Myasset">我的资产</string>
+    <string name="More">更多</string>
+
+    <string-array name="invest_tab">
+        <item>全部理财</item>
+        <item>推荐理财</item>
+        <item>热门理财</item>
+
+    </string-array>
+
+</resources>
